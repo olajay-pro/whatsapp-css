@@ -1,0 +1,193 @@
+body{
+	margin-left: 185px;
+	margin-top: 94px;
+	margin-bottom: 97px;
+	color: white;
+	font-family: "comicsans", sans-serif;
+	background-color: #4592ac;
+}
+
+.phone-padding{
+	position: relative;
+	height: 1059px;
+	width: 669px;
+	background: #060c21;
+		display: flex;
+		animation: animate 12s linear infinite;
+		animation-delay: 3.5s;
+}
+
+@keyframes animate{
+	0%{
+		transform: rotate(0deg);
+		filter: hue-rotate(0deg);
+	}
+
+	100%{
+		transform: rotate(360deg);
+		filter: hue-rotate(360deg);
+	}
+}
+
+.phone-padding:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+}
+
+.phone-padding:after{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+
+.phone-padding:before,
+.phone-padding:after{
+	background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+}
+
+.phone-body{
+	height: 1050px;
+	width: 660px;
+	border-radius: 15px;
+	background-color: #250c3b;
+}
+
+#top{
+	
+width: 100%;
+	display: table;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+#right{
+	float: right;
+
+	}
+
+#left{
+	float: left;
+	
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+
+}
+
+li{
+	display: inline;
+	}
+
+time{
+	padding-right: 15px;
+	font-size: 20px;
+}
+
+.edit{
+	height: 50%;
+	width: 27%;
+}
+
+.the-tab{
+	background-color: #3d155f;
+}
+
+#partone{
+	width: 100%;
+	display: table;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sideone{
+	float: left;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-left: 35px;
+}
+
+#sidetwo{
+	float: right;
+	padding-top: 15px;
+}
+
+#parttwo{
+	
+width: 100%;
+		padding: 0px;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+.column1{
+	float: left;
+	width: 15%;
+}
+
+.column2{
+	float: left;
+	width: 69%;
+}
+
+.column3{
+	float: left;
+	width: 10%;
+}
+
+
+.column4{
+	float: left;
+	width: 66%;
+}
+
+.column5{
+	float: left;
+	width: 15%;
+}
+
+.dull{
+	margin: 0px;
+	padding-top: 5px;
+	color: #b3b0b5;
+	font-size: 23px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.supping{
+	width: 90%;
+	border-radius: 50%;
+
+}
+
+.test{
+	width: 80%;
+	margin-left: 123px;
+}
+
+.ending{
+	color: #b3b0b5;
+	text-align: center;
+	font-size: 18px;
+}
+
